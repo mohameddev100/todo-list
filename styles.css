@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    width: 80%;
+}
 h1 {
     font-size: 4.3rem;
     font-weight: normal;
@@ -18,3 +26,18 @@ h1 {
 }
 h1 > span {
     color: yellowgreen;
+}
+
+.input {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 0.95rem;
+}
+.btn {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
